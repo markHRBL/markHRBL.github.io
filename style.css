@@ -161,6 +161,20 @@ footer > p > span {
     background: #242530;
 }
 
+.logo {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 48px;
+    color: white;
+    margin-top: 50px;
+}
+
+.logo > span {
+    letter-spacing: 0;
+}
+
 @media (max-width: 830px) {
     main {
         position: static;
@@ -188,6 +202,14 @@ footer > p > span {
     header {
         grid-column: 1 / 2;
     }
+
+    .logo {
+        font-size: 30px;
+    }
+
+    .nav-text {
+        font-size: 30px;
+    }
 }
 
 @media (max-width: 550px) {
@@ -207,5 +229,9 @@ footer > p > span {
     .r-more {
         margin-left: 33px;
         font-size: 18px;
+    }
+    .logo {
+        font-size: 24px;
+        letter-spacing: 24px;
     }
 }
